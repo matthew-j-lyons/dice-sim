@@ -1,4 +1,4 @@
-# real_dice0.1
+# real dice 0.1
 A program designed to replicate the full functionality of a set of dice for tabletop roleplaying games.
 Takes commands, alternate between dice choice, rerolls, etc.
 
