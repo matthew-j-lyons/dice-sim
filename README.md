@@ -1,5 +1,5 @@
 # mdice 0.1
-A basic script designed to replicate the full functionality of a set of dice for tabletop roleplaying games.
+A basic python script designed to replicate the full functionality of a set of dice for tabletop roleplaying games.
 Takes commands, alternate between dice choice, rerolls, etc.
 
 Currently functional: D4, D6, D8, D10, D12 & D20 rolls.
