@@ -5,9 +5,9 @@ Takes commands, alternate between dice choice, rerolls, etc.
 Currently functional: D4, D6, D8, D10, D12 & D20 rolls.
 
 Updates TK: 
-  D100, D1000/
-  multipliers functionality ("D00")/ 
-  critical hit & miss notation on D20/
-  multi-dice or roll selection
+* D100, D1000
+* multipliers functionality ("D00") 
+* critical hit & miss notation on D20 
+* multi-dice or roll selection
 
 More to come when I get around to it.
