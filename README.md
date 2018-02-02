@@ -8,6 +8,6 @@ Updates TK:
   D100, D1000/
   multipliers functionality ("D00")/ 
   critical hit & miss notation on D20/
-  multi-dice - multi-roll selection
+  multi-dice or roll selection
 
 More to come when I get around to it.
