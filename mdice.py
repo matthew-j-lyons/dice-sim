@@ -1,6 +1,3 @@
-#mdice 0.1
-#developed by Matthew Lyons
-
 import random
 
 dfour = ["four", "4", "d4"]
@@ -17,7 +14,6 @@ mdice 0.1
 You can choose from D4, a D6, a D8, D10, a D12 and a D20.
 Press Ctrl-C to quit at any time.
 """)
-
 
 def dice_roll():
     roll = input("What die would you like to roll? ")
