@@ -6,6 +6,8 @@ deight = ["eight", "8", "d8"]
 dten = ["ten", "10", "d10"]
 dtwelve = ["twelve", "12", "d12"]
 dtwenty = ["twenty", "20", "d20"]
+dhund = ["hundred", "one hundred", "100", "d100"]
+dthou = ["thousand", "one thousand", "1000", "1,000", "d1000"]
 affirmatives = ["y", "yes"]
 negatives = ["n", "no"]
 
@@ -29,6 +31,10 @@ def dice_roll():
         print("You got:", random.randint(1,12))
     elif roll.lower() in dtwenty:
         print("You got:", random.randint(1,20))
+    elif roll.lower() in dhund:
+        print("You got:", random.randint(1,100))
+    elif roll.lower() in dthou:
+        print("You got:", random.randint(1,1000))
     else: 
         print("That's not a die I recognize.")
         dice_roll()
