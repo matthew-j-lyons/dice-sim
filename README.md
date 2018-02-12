@@ -5,7 +5,7 @@ Takes commands, alternate between dice choice, rerolls, etc.
 Currently functional: D4, D6, D8, D10, D12, D20, D100 & D1000 rolls.
 
 Update log:
-* D100 & 1000 added 3.9.18
+* D100 & 1000 added 2.9.18
 
 Updates TK: 
 * multipliers functionality ("D00") 
