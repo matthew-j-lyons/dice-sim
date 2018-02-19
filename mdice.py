@@ -13,7 +13,7 @@ negatives = ["n", "no"]
 
 print("""
 mdice 0.1
-You can choose from D4, a D6, a D8, D10, a D12 and a D20.
+You can choose from D4, D6, D8, D10, D12, D20, D100 & D1000.
 Press Ctrl-C to quit at any time.
 """)
 
