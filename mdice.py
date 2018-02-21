@@ -19,22 +19,23 @@ Press Ctrl-C to quit at any time.
 
 def dice_roll():
     roll = input("What die would you like to roll? ")
+    print("You got: ")
     if roll.lower() in dfour:
-        print("You got:", random.randint(1,4))
+        print(random.randint(1,4))
     elif roll.lower() in dsix:
-        print("You got:", random.randint(1,6))
+        print(random.randint(1,6))
     elif roll.lower() in deight:
-        print("You got:", random.randint(1,8))
+        print(random.randint(1,8))
     elif roll.lower() in dten:
-        print("You got:", random.randint(1,10))
+        print(random.randint(1,10))
     elif roll.lower() in dtwelve:
-        print("You got:", random.randint(1,12))
+        print(random.randint(1,12))
     elif roll.lower() in dtwenty:
-        print("You got:", random.randint(1,20))
+        print(random.randint(1,20))
     elif roll.lower() in dhund:
-        print("You got:", random.randint(1,100))
+        print(random.randint(1,100))
     elif roll.lower() in dthou:
-        print("You got:", random.randint(1,1000))
+        print(random.randint(1,1000))
     else: 
         print("That's not a die I recognize.")
         dice_roll()
